@@ -21,3 +21,4 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm install -g json-server
       - run: json-server app/db.json
+      - run: echo "finished"
