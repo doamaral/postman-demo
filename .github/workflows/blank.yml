@@ -20,5 +20,5 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
       - run: npm install -g json-server
-      - run: json-server app/db.json
+      - run: json-server -q app/db.json
       - run: echo "finished"
